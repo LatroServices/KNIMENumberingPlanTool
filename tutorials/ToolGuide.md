@@ -8,14 +8,16 @@
 
 ## Running the Tool
 1. Connect to your iNOC VPN
-2. Go to the location where the unzipped tool folder has been saved
-3. Create a CSV file called "msisdns.csv" and enter all MSISDN values that you would like to search on (1 MSISDN per line)
-4. Right click on the folder and select "Open in Terminal"
-5. Within Powershell, type .\\SpeakerCountQueryTool.exe -i .\\msisdns.csv -e "YYYY-MM-DD HH:MM:SS" -a 10.100.23.203 -m .\\TrainedRegressionModel.xml
-*Note: Update the timestamp with the desired end time for your 24 hour search*
-6. Click Enter to run the command
-7. The output file will be saved to the same folder location as "speaker_counts.csv"
+2. Open your KNIME Analytics Platform tool.
+3. Create a CSV file and enter all MSISDN values that you would like to qulaify in one coloumn called MSISDN.
+4. Go to file and click on *Import KNIME Flow*
+5. Click on Brwse, select the NIME Numbering Plan flow you've downloaded and click on Finish.
+6. Go to KNIME explorer and open it.
+7. Double click on CSV Reader component in the flow, from the popup window go to settings, File, and browse your desired file to add it.
+8. Click on Ok, you;; see a popup warning window, click on Ok as well.
+9. Double click on CSV writer component in the flow, from the popup window go to settings, File, and browse your desiredplace to upload the outpot filr to.
+10. from the menu bar click on ![image](https://github.com/user-attachments/assets/1fbf1f52-3698-4940-a556-b3a592699b74) , all nodes will be executed.
 
+ 
 ## Helpul Notes
-1. For more information on the available arguments and shortcuts type .\\SpeakerCountQueryTool.exe -h
-2. Run multiple commands with changing the timestamp to view results over a longer interval than 24 hours
+1. in next tume you want to run this flow no need to import it as you will find it in KNIME Explorer.
