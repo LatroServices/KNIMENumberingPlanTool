@@ -6,4 +6,4 @@ This tool is designed for LATRO Analysts to perform batch number qualification o
 
 ## Documentation Overview
 1. [Release Notes](./releases/README.md)
-2. [Tool Guide](./toolguide/README.md)
+2. [Tool Guide](./tutorials/ToolGuide.md)
