@@ -5,7 +5,7 @@
 2. Install **KNIME Analytics Platform** on your PC.  
    If not installed, you can download it from the [KNIME official website](https://www.knime.com/downloads).
 3. Download the **KNIME Numbering Plan** flow from the shared folder:  
-   [Download KNIME Flow](https://latroservices962.sharepoint.com/:u:/r/sites/rafm/Training%20Library/KNIME%20Numbering%20Plan/Qualify%20Numbers.knwf?csf=1&web=1&e=h4LJbq)
+   [Download KNIME Flow](https://latroservices962.sharepoint.com/sites/rafm/Training%20Library/Forms/AllItems.aspx?id=%2Fsites%2Frafm%2FTraining%20Library%2FKNIME%20Numbering%20Plan&viewid=a1915b24%2D33c6%2D479e%2Da7ae%2Dfcfc8d2fecc5)
 
 --- 
 
