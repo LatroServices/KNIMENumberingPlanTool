@@ -17,13 +17,21 @@
 5. Click **Browse**, select the downloaded *KNIME Numbering Plan* flow, then click **Finish**.
 6. Open the flow via **KNIME Explorer**.
 7. Double-click the **CSV Reader** component. In the popup window:
-   - Go to the **Settings** tab → **File** section
-   - Browse and select your MSISDN input file
-   - Click **OK** (acknowledge any warning messages)
+   a) Go to the **Settings** tab → **File** section
+   b) Browse and select your MSISDN input file
+   c) Click "Transformation" tab and ensure the column "MSISDN" type is set to "Number Long"
+   d) Click "Encoding" tab and select type "UTF-8"
+   e) Click **OK** (acknowledge any warning messages)
 8. Double-click the **CSV Writer** component. In the popup window:
    - Go to **Settings** → **File**
    - Choose the output file location where the qualified numbers will be saved
 9. From the menu bar, click the **green execute icon** (![Execute All](https://github.com/user-attachments/assets/1fbf1f52-3698-4940-a556-b3a592699b74)) to run all nodes in the workflow.
+10. Once all nodes have turned green, go to the file location (from step 8) to access the output file. 
+11. The output file is expected to include the following fields:
+   - MSISDN
+   - Country
+   - Operator
+   - TOS
 
 --- 
 
